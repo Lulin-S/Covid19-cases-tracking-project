@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="citiesinfo.css" />
+    <title>API uppgift</title>
+  </head>
+  <body>
+    <div class="subtitle" id="showInformation">
+      <h3>This part shows the data from API</h3>
+    </div>
+    <div id="container">
+      <div class="subtitle" id="postInformation">
+        <h3>This part can be used to post data to API</h3>
+        <div class="subsubtitle">
+          <div id="enterID">Please enter the ID of the city:</div>
+          <div id="enterName">Please enter the name of the city:</div>
+          <div id="enterPopulation">
+            Please enter the population of the city:
+          </div>
+          <button id="postButton">Post the data</button>
+        </div>
+      </div>
+      <div class="subtitle" id="editInformation">
+        <h3>This part can be used to edit data to API</h3>
+        <div class="subsubtitle">
+          <div id="editSelectID">
+            Plesase select the id of the cities which you want to edit:
+          </div>
+          <div id="editEnterName">Please enter the name of the city:</div>
+          <div id="editEnterPopulation">
+            Please enter the population of the city:
+          </div>
+          <button id="editButton">Edit the data</button>
+        </div>
+      </div>
+      <div class="subtitle" id="deleteInformation">
+        <h3>This part can be used to delet data in API</h3>
+        <div class="subsubtitle">
+          <div id="deleteSelectID">
+            Plesase select the id of the cities which you want to delete:
+          </div>
+          <button id="deleteButton">Delete the data</button>
+        </div>
+      </div>
+    </div>
+    <div id="refreshDiv">
+      <button id="refreshButton">Refresh the page</button>
+    </div>
+    <script src="citiesinfo.js"></script>
+  </body>
+</html>

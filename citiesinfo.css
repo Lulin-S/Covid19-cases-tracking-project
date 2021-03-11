@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(196, 194, 193);
+  margin: 0;
+  padding: 30px;
+}
+
+.subtitle {
+  color: rgb(36, 68, 109);
+}
+
+.subsubtitle {
+  color: black;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-items: center;
+}
+button {
+  border-radius: 5%;
+}
+#refreshButton {
+  width: 300px;
+  height: 100px;
+  margin: auto;
+}
+
+#refreshDiv {
+  display: flex;
+  padding: 30px;
+}
+
+#postInformation {
+  width: 33%;
+}
+
+#editInformation {
+  width: 33%;
+}
+
+#deleteInformation {
+  width: 33%;
+}
